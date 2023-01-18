@@ -1,0 +1,131 @@
+body {
+    font-family: Georgia, Garamond, serif;
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid #789;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*Color Section*/
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    border: 2px solid #000;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.lightslategray {
+    background-color: #778899;
+    color: #fff
+}
+
+.darkslategray {
+    background-color: #2f4f4f;
+    color: #fff;
+}
+
+.darkslateblue {
+    background-color: #483d8b;
+    color: #fff;
+}
+
+.darkolivegreen {
+    background-color: #556b2f;
+    color: #fff;
+}
+
+.tan {
+    background-color: #d2b48c;
+    color: #000;
+}
+
+.crimson {
+    background-color: #db143c;
+    color: #fff;
+}
+
+.dimgray {
+    background-color: #696969;
+    color: #fff;
+}
+
+.steelblue {
+    background-color: rgb(70, 130, 180);
+}
+
+.midnightblue {
+    background-color: hsl(240, 64%, 27%);
+    color: #fff;
+}
+
+/*Font Section*/
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    margin: 20px auto;
+    min-height: 100px;
+    vertical-align: top;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.standard {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.monospace {
+    font-family: Monospace;
+}
+
+.garamond {
+    font-family: Garamond;
+}
+
+.arial {
+    font-family: Arial;
+}
+
+.georgia {
+    font-family: Georgia;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Georgia, serif;
+}
+
+.text-panel h2 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Garamond, serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Garamond, serif;
+}
